@@ -1,0 +1,169 @@
+@media (max-width: 1200px) {
+    .container {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .main_container {
+        gap: 35px;
+    }
+
+    .about_container {
+        width: auto;
+    }
+
+    .graduate_item {
+        padding: 35px 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header_menu {
+        display: none;
+    }
+    .header_action_main {
+        display: flex;
+    }
+
+    .about_content {
+        gap: 5%;
+    }
+
+    .about_content-img > img {
+        height: 90px;
+    }
+
+    .message_contact-card {
+        width: auto;
+    }
+
+    .video_block {
+        flex-direction: column;
+    }
+
+    .video_block-link > iframe {
+        width: 100%;
+    }
+
+    .video_block-text {
+        gap: 10px;
+    }
+
+    .news_contant-list {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .news_contant-item {
+        width: calc(90%/2);
+    }
+    
+    .quote_contant {
+        width: calc(100% - 260px);
+    }
+
+    .graduate_list {
+        flex-wrap: wrap;
+    }
+
+    .footer_contacts-list {
+        flex-wrap: wrap;
+    }
+
+    .footer_contacts-item {
+        width: calc(90% / 2);
+        margin-bottom: 20px;    
+    }
+}
+
+@media (max-width: 720px) {
+
+    .header_banner-contacts {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header_banner-info-list {
+        gap: 0;
+    }
+
+    .header_banner-info-item {
+        width: calc(90%/3);
+    }
+
+    .about_content-img {
+        display: none;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .video_mobile {
+        display: block;
+    }
+
+    .video_block-link > iframe {
+        height: 260px;
+    }
+
+    .news_wrapper {
+        width: 100%;
+    }
+
+    .quote_contant {
+        width: 100%;
+    }
+
+    .graduate_item {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .header_contact {
+        font-size: 12px;
+    }
+    
+    .header_banner-title {
+        font-size: 34px;
+    }
+
+    .main_container {
+        flex-direction: column;
+    }
+    
+    .main_right_container {
+        width: auto;
+    }
+    
+    .main_right-info {
+        display: none;
+    }
+
+    .message_contacts {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .message_contact-card {
+        width: 260px;
+    }
+
+    .video_block-link > iframe {
+        height: 180px;
+    }
+    
+    .news_contant-item {
+        width: 80%;
+    }
+
+    .graduate_wrapper {
+        width: 100%;
+    }
+
+    .footer_contacts-item {
+        width: 100%;
+    }
+}
