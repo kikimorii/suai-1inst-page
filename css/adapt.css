@@ -56,6 +56,10 @@
     .news_contant-list {
         gap: 25px;
     }
+
+    .news_contant-item {
+        width: calc(90% / 2);
+    } 
     
     .quote_contant {
         width: calc(100% - 260px);
@@ -72,6 +76,12 @@
     .footer_contacts-item {
         width: calc(90% / 2);
         margin-bottom: 20px;    
+    }
+}
+
+@media (max-width: 800px) {
+    .news_contant-item {
+        width: 90%;
     }
 }
 
@@ -108,6 +118,10 @@
 
     .news_wrapper {
         width: 100%;
+    }
+
+    .news_contant-item {
+        width: calc(90% / 2);
     }
 
     .quote_contant {
@@ -159,6 +173,12 @@
     }
 
     .footer_contacts-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .news_contant-item {
         width: 100%;
     }
 }
