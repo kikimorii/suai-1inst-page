@@ -12,6 +12,10 @@
         width: auto;
     }
 
+    .news_contant-list {
+        gap: 25px;
+    }
+
     .graduate_item {
         padding: 35px 15px;
     }
@@ -50,12 +54,7 @@
     }
 
     .news_contant-list {
-        flex-wrap: wrap;
         gap: 25px;
-    }
-
-    .news_contant-item {
-        width: calc(90%/2);
     }
     
     .quote_contant {
@@ -153,10 +152,6 @@
 
     .video_block-link > iframe {
         height: 180px;
-    }
-    
-    .news_contant-item {
-        width: 80%;
     }
 
     .graduate_wrapper {
