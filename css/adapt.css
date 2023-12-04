@@ -25,8 +25,50 @@
     .header_menu {
         display: none;
     }
+
     .header_action_main {
         display: flex;
+    }
+
+    .header_menu-burger {
+        display: block;
+        position: absolute;
+        width: 270px;
+        height: 100vh;
+        background-color: white;
+        z-index: 1;
+        left: -270px;
+        transition: all 1s ease-in-out .5s;
+    }
+    
+    .header_menu-burger-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .header_menu-burger.active {
+        display: block;
+        position: absolute;
+        width: 270px;
+        height: 100vh;
+        background-color: white;
+        z-index: 1;
+        transform: translate(270px);
+    }
+    
+    .header_menu-burger.active > .header_menu-burger-wrapper > .header_menu-main-list {
+        flex-direction: column;
+    }
+    
+    .header_menu-burger > .header_menu-burger-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 35px;
+        left: 30px;
+        gap: 25%;
+        height: 100%;
     }
 
     .about_content {
