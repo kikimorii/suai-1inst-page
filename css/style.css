@@ -71,8 +71,8 @@ body {
 .hidden_menu {
     display: none;
     position: absolute;
-    top: 15;
-    left: -35px;
+    top: 30px;
+    left: -10px;
     z-index: 999;
 }
 
@@ -121,6 +121,12 @@ body {
 .header_menu-right-menu {
     display: flex;
     gap: 5px;
+    align-items: center;
+}
+
+.header_menu-right-menu-item {
+    height: 100%;
+    display: flex;
     align-items: center;
 }
 
@@ -370,7 +376,7 @@ body {
     display: block;
 }
 
-.main_right-menu-item:first-child {
+.main_right-menu-item.active {
     border-left: 2px solid #005AAA;
     background: #F3F3F3;
     border-image: linear-gradient(to bottom,#e72b70,#005aaa) 1 100%;
@@ -646,4 +652,49 @@ body {
     border-top: 1px solid #CCC;
     display: inline-block;
     font-size: 18px;
+}
+
+
+/* побочные страницы */
+.about_contant-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about_contant-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about_contant-disciprion {
+    color: #333;
+    font-size: 13px;
+}
+
+/* contacts */
+
+.about_contant-list-cards {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.about_contant-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about_contant-card-title {
+    display: flex;
+    gap: 10px;
+}
+
+.about_contant-card-title > img {
+    width: 80px;
+    border-radius: 100%;
 }

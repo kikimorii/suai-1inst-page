@@ -38,7 +38,7 @@
         background-color: white;
         z-index: 1;
         left: -270px;
-        transition: all 1s ease-in-out .5s;
+        transition: all 0.5s ease-in-out;
     }
     
     .header_menu-burger-list {
@@ -69,6 +69,10 @@
         left: 30px;
         gap: 25%;
         height: 100%;
+    }
+
+    .hidden_menu {
+        top: 42px;
     }
 
     .about_content {
@@ -128,6 +132,10 @@
 }
 
 @media (max-width: 720px) {
+    
+    .about_title {
+        font-size: 25px;
+    }
 
     .header_banner-contacts {
         flex-direction: column;
