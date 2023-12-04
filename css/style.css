@@ -59,8 +59,30 @@ body {
     margin: 0 auto;
 }
 
-.change_language {
-    color: #999;
+.hidden_menu-wrapper {
+    position: relative;
+}
+
+.hidden_menu-title {
+  cursor: pointer;
+  color: #999;
+}
+
+.hidden_menu {
+    display: none;
+    position: absolute;
+    top: 15;
+    left: -35px;
+    z-index: 999;
+}
+
+.hidden_menu-item {
+  text-decoration: none;
+  background-color: #005aaa;
+  font-weight: 400;
+  padding: 10px;
+  text-decoration: none;
+  color: rgba(255,255,255,.8);
 }
 
 /* header */
