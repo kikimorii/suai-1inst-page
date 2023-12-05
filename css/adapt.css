@@ -9,7 +9,7 @@
     }
 
     .about_container {
-        width: auto;
+        width: calc(100% - 265px);
     }
 
     .news_contant-list {
