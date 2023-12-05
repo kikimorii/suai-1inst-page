@@ -191,6 +191,10 @@
 
 
 @media (max-width: 640px) {
+    .about_container {
+        width: 100%;
+    }
+
     .header_contact {
         font-size: 12px;
     }
