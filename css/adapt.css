@@ -123,12 +123,6 @@
         width: calc(90% / 2);
         margin-bottom: 20px;    
     }
-
-    .tab {
-        overflow-x: scroll;
-        overflow-y: hidden;
-        white-space: nowrap;
-    }
 }
 
 @media (max-width: 800px) {
