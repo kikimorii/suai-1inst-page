@@ -720,9 +720,6 @@ button {
 .tab {
     margin-bottom: 45px;
     border-bottom: 1px solid #CCC;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
 }
 
 /* Style the buttons that are used to open the tab content */
