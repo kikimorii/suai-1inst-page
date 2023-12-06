@@ -24,10 +24,24 @@ a {
     font-weight: 100;
 }
 
-h1 {
-    font-size: 40px;
-    font-style: normal;
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+}
+
+h1, h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
 }
 
 html,
@@ -74,6 +88,17 @@ button {
     position: relative;
 }
 
+.hidden_menu-link {
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.hidden_menu-link:hover {
+    opacity: 0.8;
+}
+
 .hidden_menu-title {
     cursor: pointer;
     color: #999;
@@ -91,7 +116,6 @@ button {
     text-decoration: none;
     background-color: #005aaa;
     font-weight: 400;
-    padding: 10px;
     text-decoration: none;
     color: rgba(255, 255, 255, .8);
 }
@@ -100,6 +124,10 @@ button {
 
 .header {
     margin-bottom: 90px;
+}
+
+.header_banner-info-link > i::before {
+    font-size: 63px;
 }
 
 .header_menu-container {
@@ -243,7 +271,7 @@ button {
 .header_banner-info-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 5%;
 }
 
 .header_banner-info-link {
@@ -271,6 +299,8 @@ button {
 
 .header_banner-info-sub {
     font-size: 10px;
+    max-width: 96px;
+    text-align: center;
 }
 
 /* main */
@@ -284,13 +314,11 @@ button {
 }
 
 .about {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .about_title {
     color: #000;
-    font-size: 40px;
-    font-weight: 700;
     margin-bottom: 35px;
 }
 
@@ -457,7 +485,6 @@ button {
 
 .video_block-title {
     font-size: 21px;
-    font-weight: 700;
 }
 
 .video_block-description {
@@ -547,8 +574,6 @@ button {
 
 .news-data {
     color: #000;
-    font-size: 15px;
-    font-weight: 700;
 }
 
 .quote {
@@ -580,8 +605,6 @@ button {
 }
 
 .quote_name {
-    font-size: 17px;
-    font-weight: 700;
     margin-bottom: 15px;
 }
 
@@ -618,11 +641,6 @@ button {
     border-radius: 100%;
 }
 
-.graduate_item-name {
-    font-weight: 700;
-    text-align: center;
-}
-
 .graduate_item-rang {
     font-size: 13px;
     text-align: center;
@@ -653,7 +671,6 @@ button {
 
 .footer_contat-title-text {
     color: #000;
-    font-weight: 700;
 }
 
 .footer_contact-links {
@@ -662,11 +679,16 @@ button {
     gap: 12px;
 }
 
+.footer_contact-links > .news_title-link.link > .news_title-link-wrapper {
+    justify-content: flex-start;
+}
+
 .footer_caption {
     margin-top: 45px;
     padding-top: 25px;
     border-top: 1px solid #CCC;
-    font-size: 18px;
+    font-weight: 100;
+    color: #333;
 }
 
 
@@ -683,11 +705,16 @@ button {
     gap: 15px;
     list-style-type: disc;
     padding-left: 20px;
+    margin-bottom: 25px;
 }
 
 .about_contant-disciprion {
     color: #333;
     font-size: 13px;
+}
+
+.about_title.other {
+    margin-bottom: 15px;
 }
 
 /* contacts */
@@ -700,8 +727,8 @@ button {
 
 .about_contant-card {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .about_contant-card-title {
@@ -765,8 +792,6 @@ button {
 }
 
 .tabs_contant-title {
-    font-size: 20px;
-    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -782,4 +807,10 @@ button {
 
 .tabs_contant_subvis-item {
     list-style-type: disc;
+}
+
+
+.tabs_contant-name {
+    font-weight: 100;
+    font-size: 19px;
 }
