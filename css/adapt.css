@@ -75,12 +75,8 @@
         top: 42px;
     }
 
-    .about_content {
-        gap: 5%;
-    }
-
-    .about_content-img > img {
-        height: 90px;
+    .about_content > i::before {
+        font-size: 150px;
     }
 
     .message_contact-card {
@@ -154,7 +150,7 @@
         width: calc(90%/3);
     }
 
-    .about_content-img {
+    .about_content > i::before {
         display: none;
     }
 
