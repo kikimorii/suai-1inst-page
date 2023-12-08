@@ -540,7 +540,7 @@ button {
 }
 
 .news-discription {
-    white-space: wrap;
+    white-space: pre-wrap;
 }
 
 .news_title-link {
