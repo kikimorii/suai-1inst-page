@@ -540,7 +540,7 @@ button {
 }
 
 .news-discription {
-    white-space: wrap;
+    white-space: pre-wrap;
 }
 
 .news_title-link {
@@ -655,7 +655,7 @@ button {
 .graduate_item-rang {
     font-size: 13px;
     text-align: center;
-    white-space: wrap;
+    white-space: pre-wrap;
 }
 
 .footer {
