@@ -540,7 +540,7 @@ button {
 }
 
 .news-discription {
-    white-space: pre-wrap;
+    white-space: wrap;
 }
 
 .news_title-link {
@@ -752,6 +752,14 @@ button {
 .about_contant-card-title {
     display: flex;
     gap: 10px;
+}
+
+.about_contant-card-rang {
+    font-size: 13px;
+}
+
+.about_contant-card-text {
+    width: 250px;
 }
 
 .about_contant-card-title>img {

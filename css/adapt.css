@@ -240,6 +240,10 @@
     .footer_contacts-item {
         width: 100%;
     }
+
+    .about_contant-card-title {
+        width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
