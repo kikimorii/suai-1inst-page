@@ -25,7 +25,7 @@
         width: 75%;
     }
 
-    .vider_block-text {
+    .video_block-text {
         width: 250px;
     }
 
@@ -94,12 +94,6 @@
         overflow-x: auto;
     }
 
-    .header_menu-bottom-wrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
     .header_menu-bottom {
         margin-left: -30px;
         padding-left: 30px;
@@ -107,25 +101,44 @@
         border-bottom: 2px solid #005AAA;
     }
 
-    .header_submenu-burger-list, .header_dropsubmenu-burger-list {
+    .header_submenu-burger-list, .header_dropsubmenu-burger-list, .header_dropsubmenu-main-item {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+    }
+
+    .header_submenu-main-item:first-child {
+        cursor: pointer;
+        padding: 10px 0px 10px 30px;
     }
 
     .header_dropsubmenu-burger-list {
         display: none;
     }
 
-    .header_submenu-main-item {
+    .header_submenu-main-item.hidden-table.active {
+        font-weight: 600;
+    }
+    .header_dropsubmenu-burger-list.active {
+        display: flex;
+    }
+
+    .header_submenu-main-item, .header_dropsubmenu-main-item {
         margin-left: -30px;
         padding-left: 30px;
-        padding-bottom: 10px;
         border-bottom: 1px solid #ccc;
     }
 
-    .header_submenu-main-item > a {
+    .header_submenu-main-item, .header_dropsubmenu-main-item {
+        font-weight: 300;
         color: #000000cc;
+    }
+
+    .header_submenu-main-item > a, .header_dropsubmenu-main-item > a{
+        font-weight: 300;
+        color: #000000cc;
+        margin-left: -30px;
+        padding: 10px 0px 10px 30px;
+        display: block;
     }
 
     .hidden_menu {
@@ -194,13 +207,16 @@
         gap: 3%;
     }
 
-    .news_contant-item {
-        width: 90%;
+    .main_left_container {
+        width: calc(95% - 215px);
     }
 
-    .message_contacts {
-        flex-direction: column;
-        gap: 15px;
+    .main_right_container {
+        width: 215px;
+    }
+
+    .news_contant-item {
+        width: 90%;
     }
 
     .message_contact-card {
@@ -296,7 +312,6 @@
 
     .message_contacts {
         flex-direction: row;
-        align-items: center;
         justify-content: space-between;
     }
 
