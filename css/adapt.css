@@ -41,6 +41,9 @@
 }
 
 @media (max-width: 1024px) {
+    .header {
+        position: relative;
+    }
     .header_menu {
         display: none;
     }
@@ -50,10 +53,11 @@
     }
 
     .header_menu-burger {
+        overflow-x: auto;
         display: block;
         position: absolute;
         width: 270px;
-        height: 100vh;
+        height: 100%;
         background-color: white;
         z-index: 1;
         left: -270px;
@@ -70,7 +74,7 @@
         display: block;
         position: absolute;
         width: 270px;
-        height: 100vh;
+        height: 100%;
         background-color: white;
         z-index: 1;
         transform: translate(270px);
