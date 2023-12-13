@@ -25,7 +25,7 @@ body.lock {
 a {
     text-decoration: none;
     color: #005AAA;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,7 +59,7 @@ button {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     color: #005aaa;
     cursor: pointer;
 }
@@ -302,7 +302,7 @@ button {
 .header_banner-info-numb {
     font-family: Roboto;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .header_banner-info-sub {
@@ -314,7 +314,7 @@ button {
 /* main */
 
 .main {
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .main_left_container {
@@ -355,7 +355,7 @@ button {
 }
 
 .message_info-text {
-    font-weight: 100;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -439,17 +439,21 @@ button {
     border-image: linear-gradient(to bottom, #e72b70, #005aaa) 1 100%;
 }
 
+.main_right-info-mobile {
+    display: none;
+}
+
 .main_right-info-link {
-    border-radius: 10px;
     border: 1px solid #DDD;
     display: block;
     padding: 24px 14px;
     margin-bottom: 15px;
+    border-bottom: solid 3px #006CB4;
 }
 
 .main_right-info-link:hover {
     border: solid 1px #e72b70;
-    border-bottom: solid 2px #e72b70;
+    border-bottom: solid 3px #e72b70;
     color: #e72b70;
 }
 
@@ -635,16 +639,25 @@ button {
 }
 
 .graduate_list {
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid #DFDFDF;
+    border-left: 2px solid #DFDFDF;
     display: flex;
 }
 
 .graduate_item {
     display: flex;
     flex-direction: column;
-    border: 2px solid #DFDFDF;
     align-items: center;
     padding: 35px 45px;
     gap: 8px;
+    flex: 1 0 235px;
+    border-right: 2px solid #DFDFDF;
+    border-bottom: 2px solid #DFDFDF;
+    box-sizing: border-box;
 }
 
 .graduate_item-img {
@@ -661,7 +674,7 @@ button {
 .footer {
     background: #F3F3F3;
     padding: 44px 0;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .footer_contacts-list {
@@ -705,7 +718,7 @@ button {
     margin-top: 45px;
     padding-top: 25px;
     border-top: 1px solid #CCC;
-    font-weight: 100;
+    font-weight: 300;
     color: #333;
 }
 
@@ -837,7 +850,7 @@ button {
 
 
 .tabs_contant-name {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 19px;
 }
 
