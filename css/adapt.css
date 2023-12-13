@@ -87,7 +87,7 @@
         top: 35px;
         left: 30px;
         gap: 25%;
-        height: 100%;
+        height: 75%;
     }
 
     .header_menu-burger.active {
