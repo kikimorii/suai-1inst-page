@@ -91,7 +91,7 @@
     }
 
     .header_menu-burger.active {
-        overflow-x: auto;
+        overflow-x: scroll;
     }
 
     .header_menu-bottom {
