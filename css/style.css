@@ -335,6 +335,22 @@ button {
     margin-bottom: 35px;
 }
 
+.about_title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.about_title-wrapper > i {
+    font-size: 60px;
+    color: #005AAA;
+    display: none;
+}
+
+.about_title-wrapper > .about_title {
+    margin-bottom: 0;
+}
+
 .about_content {
     display: flex;
 }

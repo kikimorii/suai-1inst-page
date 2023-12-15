@@ -118,6 +118,7 @@
     .header_submenu-main-item.hidden-table.active {
         font-weight: 600;
     }
+    
     .header_dropsubmenu-burger-list.active {
         display: flex;
     }
@@ -226,7 +227,6 @@
 }
 
 @media (max-width: 720px) {
-    
     h1, h2 {
         font-size: 25px;
     }
@@ -246,6 +246,10 @@
 
     .about_content > i::before {
         display: none;
+    }
+
+    .about_title-wrapper > i {
+        display: block;
     }
 
     .news {
