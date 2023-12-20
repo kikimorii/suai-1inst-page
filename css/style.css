@@ -430,14 +430,12 @@ button {
 .main_right-menu_list {
     border-radius: 10px;
     border: 1px solid #DDD;
-    padding: 21px 0px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
 }
 
 .main_right-menu-item {
-    padding: 4px 14px;
+    padding: 0px 14px;
     color: #005AAA;
 }
 
@@ -447,6 +445,7 @@ button {
 
 .main_right-menu-item>a {
     display: block;
+    padding: 10px 0px;
 }
 
 .main_right-menu-item.active {
@@ -583,7 +582,7 @@ button {
 }
 
 .news_contant-item {
-    width: calc(90% / 3);
+    width: calc(90% / 4);
 }
 
 .news_contant-link {
@@ -595,8 +594,10 @@ button {
 .news_contant-link>img {
     border-radius: 3px;
     box-shadow: 0px 0px 2.667px 0px rgba(0, 0, 0, 0.50);
-    height: 175px;
     object-fit: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
 }
 
 .news_contant-link:hover>img {
