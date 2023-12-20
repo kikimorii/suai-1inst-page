@@ -227,6 +227,7 @@
 
     .news_contant-link {
         display: block;
+        height: 100%;
     }
 
     .news_contant-link>img {
