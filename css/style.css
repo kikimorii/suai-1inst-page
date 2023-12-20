@@ -432,6 +432,7 @@ button {
     border: 1px solid #DDD;
     display: flex;
     flex-direction: column;
+    padding: 10px 0;
 }
 
 .main_right-menu-item {
